@@ -1,0 +1,158 @@
+/* زرپالس – پنل فارسی قیمت‌گذاری طلا */
+.zg-wrap{max-width:1420px;margin:22px 20px 0 0;color:#23313a}.zg-heading{background:linear-gradient(125deg,#102a43,#174d5c 57%,#c3943d);border-radius:18px;padding:28px 34px;color:#fff;display:flex;justify-content:space-between;align-items:center;box-shadow:0 14px 36px rgba(16,42,67,.18)}.zg-heading h1{margin:0;color:#fff;font-size:25px}.zg-heading p{margin:10px 0 0;color:#dcecf0}.zg-badge{font-size:18px;font-weight:700}.zg-badge span{font-size:11px;background:rgba(255,255,255,.15);padding:3px 8px;border-radius:20px;margin-right:6px}.zg-toolbar{margin:18px 0;display:flex;justify-content:space-between;align-items:center;gap:14px;background:#fff;border:1px solid #e7edf0;border-radius:12px;padding:12px 16px}.zg-toolbar>div:first-child{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.zg-cron-status{font-size:12px;color:#55707a;background:#f4f8f8;border:1px solid #dce9eb;border-radius:999px;padding:5px 10px}.zg-cron-status:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#39a66b;margin-left:6px}.zg-inline-form{display:inline-block;margin:0}.zg-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:18px 0}.zg-card{border:1px solid #e4ecee;background:#fff;border-radius:14px;padding:19px;min-height:84px;box-shadow:0 3px 12px rgba(22,47,57,.04);position:relative;overflow:hidden}.zg-card:before{content:"";position:absolute;width:5px;right:0;top:0;bottom:0;background:#1b7781}.zg-card.zg-gold:before{background:#c3943d}.zg-card.zg-error-card:before{background:#ca4e46}.zg-card span,.zg-card small{display:block;color:#70818a}.zg-card b{font-size:24px;display:inline-block;margin:9px 0 3px;color:#193343}.zg-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;margin:18px 0}.zg-grid-wide{grid-template-columns:1.15fr .85fr}.zg-panel{background:#fff;border:1px solid #e4ecee;border-radius:14px;padding:21px;box-sizing:border-box;margin:18px 0;box-shadow:0 3px 12px rgba(22,47,57,.035)}.zg-grid>.zg-panel{margin:0}.zg-panel h2{font-size:17px;margin:0 0 16px;color:#173849;border-bottom:1px solid #edf1f3;padding-bottom:13px}.zg-panel h3{margin:0 0 7px;font-size:15px}.zg-panel code{direction:ltr;display:inline-block;text-align:left;background:#f3f7f7;border-radius:6px;padding:3px 7px;color:#26616a;word-break:break-all;font-size:12px}.zg-steps{list-style:none;margin:0;padding:0}.zg-steps li{display:flex;gap:11px;margin:16px 0;line-height:1.8}.zg-steps b{height:25px;width:25px;line-height:25px;border-radius:50%;text-align:center;background:#e5f2f1;color:#16737a;flex:0 0 auto}.zg-steps a{font-weight:700;color:#087a83;text-decoration:none}.zg-form label,.zg-settings-form label{font-weight:600;color:#354b57}.zg-form input:not([type=checkbox]),.zg-form select,.zg-form textarea,.zg-settings-form input:not([type=checkbox]),.zg-settings-form select,.zg-settings-form textarea{box-sizing:border-box;width:100%;margin-top:7px;border:1px solid #ccd8dd;border-radius:7px;padding:8px 10px;background:#fff;min-height:36px}.zg-form textarea{min-height:70px;resize:vertical}.zg-form small{display:block;font-size:11px;color:#75838b;font-weight:400;margin-top:5px}.zg-form-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:13px 0}.zg-form-row>label:nth-last-child(2):first-child,.zg-form-row>label:first-child:nth-last-child(2){grid-column:span 1}.zg-block-label{display:block;margin:13px 0}.zg-check{display:flex!important;align-items:center;gap:7px;margin:15px 0}.zg-check input{margin:0!important;width:auto!important}.zg-danger{color:#a33131!important;border-color:#e7c2c2!important}.zg-status{font-size:11px;padding:3px 8px;border-radius:15px;margin-right:5px;font-weight:600}.zg-status.is-on{background:#e3f6ed;color:#15744a}.zg-status.is-off{background:#f5e7e7;color:#a34343}.zg-formula-list article{border-bottom:1px solid #ecf0f2;padding:13px 0;display:flex;justify-content:space-between;gap:10px}.zg-formula-list article:first-child{padding-top:0}.zg-formula-list article:last-child{border:0;padding-bottom:0}.zg-formula-list p{color:#65767f;margin:5px 0 9px}.zg-list-actions{display:flex;gap:5px;align-items:flex-start}.zg-list-actions form{margin:0}.zg-token-box{background:#f3f8f8;border:1px dashed #b4cece;border-radius:999px;padding:12px;margin:13px 0}.zg-token-box strong{display:block;margin-bottom:8px;color:#37535d}.zg-token-box .button{margin:2px}.zg-expression{font-family:monospace;min-height:105px!important}.zg-help-list{padding-right:18px;line-height:2}.zg-events td{vertical-align:top}.zg-level{font-size:11px;text-transform:uppercase;font-weight:bold}.zg-level.warning{color:#b16c00}.zg-level.error{color:#ba3636}.zg-level.info{color:#26717d}.zg-product-panel .form-field{padding:0 20px}.zg-product-panel .form-field label{width:190px}.zg-preview-row button{margin-left:8px}.zg-preview-result{font-weight:600;color:#1a5b61}.zg-preview-result.is-error{color:#ab3434}.zg-settings-form>.zg-panel{margin:18px 0}.zg-settings-form .zg-grid>.zg-panel{margin:0}.zg-settings-form .zg-block-label{max-width:450px}.zg-settings-form .widefat select,.zg-settings-form .widefat input{width:100%;max-width:300px}.zg-refresh-button{white-space:nowrap}@media(max-width:960px){.zg-cards{grid-template-columns:repeat(2,1fr)}.zg-grid,.zg-grid-wide{grid-template-columns:1fr}.zg-form-row{grid-template-columns:1fr 1fr}.zg-heading{padding:22px}.zg-heading p{display:none}}@media(max-width:600px){.zg-wrap{margin-right:10px}.zg-cards{grid-template-columns:1fr}.zg-form-row{grid-template-columns:1fr}.zg-heading{display:block}.zg-badge{margin-top:14px}.zg-toolbar{display:block}.zg-toolbar form{margin-top:10px}.zg-formula-list article{display:block}.zg-list-actions{margin-top:12px}}
+
+.zg-settings-form{max-width:1180px}.zg-settings-form .zg-grid{align-items:start}.zg-settings-form .zg-panel{height:100%}.zg-settings-form .widefat{border:1px solid #e3eaed;border-radius:10px;overflow:hidden}.zg-settings-form .widefat th{background:#f6f9fa;color:#314955;font-weight:700}.zg-settings-form .widefat td,.zg-settings-form .widefat th{padding:11px 12px}.zg-settings-form .description{color:#657982;line-height:1.8}.zg-settings-form .zg-block-label input,.zg-settings-form .zg-block-label select{max-width:520px}.zg-heading{gap:20px}.zg-refresh-button{box-shadow:0 5px 14px rgba(16,42,67,.12)}@media(max-width:960px){.zg-toolbar{align-items:flex-start;flex-direction:column}}
+
+.zg-cron-meta{color:#70818a}.zg-cron-error{color:#b63d3d;background:#fff1f1;border-radius:999px;padding:5px 9px}.zg-cron-status.is-updated{background:#e9f8ef;color:#19724a;border-color:#cbead8}
+
+[data-mode-panel]{display:none;background:#f6f9fa;border:1px solid #e3eaed;border-radius:10px;padding:14px 16px;margin-top:10px}
+.zg-live-indicator{font-size:11px;color:#70818a;font-weight:400;margin-right:8px}
+.zg-sources-save{display:flex;align-items:center;gap:10px;margin-top:18px}
+.zg-live-price{max-width:260px;word-break:break-word}
+
+/* ---------- داشبورد: کارت‌های خرید/فروش و وضعیت لحظه‌ای ---------- */
+.zg-card-duo{display:flex;gap:16px;margin:9px 0 3px;align-items:baseline}
+.zg-duo{flex:1;min-width:0}
+.zg-duo small{font-size:11px;color:#70818a;margin-bottom:2px}
+.zg-duo b{font-size:18px;margin:0;display:block;color:#193343;white-space:nowrap}
+.zg-card.zg-gold .zg-duo:last-child b{color:#0e6b72}
+.zg-card-unit{font-size:11px}
+.zg-live-summary{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}
+.zg-chip{display:inline-flex;align-items:center;gap:6px;background:#f3f8f8;border:1px solid #dce9eb;border-radius:999px;padding:5px 12px;font-size:12px;color:#37535d}
+.zg-trace-list{list-style:none;margin:0;padding:0}
+.zg-trace-step{display:flex;gap:10px;align-items:flex-start;padding:9px 10px;border:1px solid #edf1f3;border-radius:9px;margin:7px 0;background:#fbfdfd}
+.zg-trace-step.is-ok{border-right:3px solid #39a66b}
+.zg-trace-step.is-warn{border-right:3px solid #d97706;background:#fffdf7}
+.zg-trace-step.is-err{border-right:3px solid #ca4e46;background:#fffafa}
+.zg-trace-step.is-muted{opacity:.6}
+.zg-trace-badge{font-size:10px;font-weight:700;border-radius:999px;padding:2px 9px;flex:0 0 auto;margin-top:1px}
+.zg-trace-badge.is-ok{background:#e3f6ed;color:#15744a}
+.zg-trace-badge.is-warn{background:#fef3c7;color:#b45309}
+.zg-trace-badge.is-err{background:#fbe7e5;color:#a33131}
+.zg-trace-badge.is-muted{background:#eef2f3;color:#7b8a91}
+.zg-trace-body{flex:1;min-width:0}
+.zg-trace-body b{display:block;font-size:13px;color:#193343}
+.zg-trace-body small{display:block;color:#65767f;font-size:11px;margin-top:2px;line-height:1.6}
+.zg-trace-err{color:#b63d3d!important}
+.zg-trace-chosen{color:#15744a!important;font-weight:600}
+.zg-trace-final{margin-top:12px;padding:10px 12px;background:#f3f9f6;border:1px solid #d3e9dd;border-radius:9px;color:#1c5c43;font-size:13px}
+
+/* ---------- منابع قیمت: سوییچ دو حالته (خودکار / دستی) ---------- */
+.zg-mode-switch--2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:8px 0 12px}
+.zg-mode-option{position:relative;display:block;cursor:pointer;margin:0}
+.zg-mode-option input{position:absolute;opacity:0;pointer-events:none}
+.zg-mode-option-card{position:relative;display:block;border:1.5px solid #dce6e9;border-radius:12px;padding:16px 18px;background:#fbfdfd;transition:border-color .15s,box-shadow .15s,background .15s}
+.zg-mode-option-card strong{display:block;font-size:14px;color:#294652;margin-bottom:6px}
+.zg-mode-option-card small{display:block;font-size:11px;color:#718187;line-height:1.8}
+.zg-mode-option input:checked + .zg-mode-option-card{border-color:#17828a;background:#f1f9f8;box-shadow:0 0 0 3px rgba(23,130,138,.10)}
+.zg-mode-option input:focus-visible + .zg-mode-option-card{box-shadow:0 0 0 3px rgba(23,130,138,.25)}
+
+.zg-recommended-tag{position:absolute;top:-10px;left:14px;background:linear-gradient(135deg,#c3943d,#e0b15b);color:#fff;font-size:11px;font-weight:700;padding:2px 10px;border-radius:999px;box-shadow:0 2px 8px rgba(195,148,61,.35)}
+.zg-mode-option.is-recommended .zg-mode-option-card{border-color:#d5b066}
+.zg-mode-option.is-recommended input:checked + .zg-mode-option-card{border-color:#c3943d;background:#fefbf5;box-shadow:0 0 0 3px rgba(195,148,61,.18)}
+
+/* ---------- المان‌های حالت خودکار موتور فرمول ---------- */
+.zg-auto-mode-info{background:#fff;border:1px solid #e3eaed;border-radius:10px;padding:14px 16px;margin:8px 0 14px}
+.zg-auto-mode-info p{margin:0 0 8px;font-size:13px;color:#213b48}
+.zg-auto-sources-list{list-style:none;margin:0;padding:0}
+.zg-auto-sources-list li{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:12px;color:#354b57;line-height:1.8}
+.zg-auto-source-badge{background:#eef5f6;color:#174d5c;font-weight:700;padding:3px 9px;border-radius:6px;font-size:11px;flex:0 0 auto}
+.zg-auto-live-box{background:#f8fbfb;border:1px solid #dce8ea;border-radius:12px;padding:16px;margin-top:12px}
+.zg-auto-live-box h3{margin:0 0 12px;font-size:14px;color:#183e4c;display:flex;justify-content:space-between;align-items:center}
+.zg-auto-metrics-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0}
+.zg-metric-card{background:#fff;border:1px solid #e2ecee;border-radius:10px;padding:12px 14px;box-shadow:0 2px 6px rgba(16,42,67,.03)}
+.zg-metric-card span{display:block;font-size:11px;color:#70818a;margin-bottom:4px}
+.zg-metric-card b{display:block;font-size:15px;color:#193343;white-space:nowrap}
+.zg-metric-gold{border-color:#eed9ad;background:#fffdf9}
+.zg-metric-gold b{color:#b27a1b}
+.zg-auto-actions{display:flex;align-items:center;gap:12px;margin:14px 0 6px}
+.zg-auto-test-result{font-size:12px;font-weight:600;color:#15744a}
+.zg-auto-test-result.is-error{color:#ab3434}
+.zg-notice-subtle{font-size:11px;color:#7d9098;margin:10px 0 0;line-height:1.7}
+
+.zg-direct-test-result{font-weight:600;font-size:12px;color:#1a5b61}
+.zg-direct-test-result.is-error{color:#ab3434}
+
+/* ---------- راهنمای Cron سرور ---------- */
+.zg-cron-guide h3{font-size:13px;margin:14px 0 4px;color:#173849}
+.zg-cron-guide h3:first-child{margin-top:0}
+.zg-cron-url{display:flex;gap:8px;align-items:center;margin:6px 0}
+.zg-cron-url input{direction:ltr;text-align:left;flex:1;max-width:760px}
+.zg-cron-guide code{display:inline-block;background:#f3f7f7;border-radius:6px;padding:4px 8px;color:#26616a;direction:ltr;font-size:12px;word-break:break-all}
+.zg-copy-btn{white-space:nowrap}
+
+/* ---------- پیام داخل صفحه (ذخیره شد / خطا) ---------- */
+.zg-page-notice{display:flex;gap:12px;align-items:flex-start;margin:18px 0;padding:14px 16px;border-radius:12px;border:1px solid;font-size:13px;line-height:1.9}
+.zg-page-notice__icon{flex:0 0 auto;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:14px;color:#fff}
+.zg-page-notice strong{display:block;font-size:13px;margin-bottom:2px}
+.zg-page-notice p{margin:0;font-weight:500}
+.zg-page-notice--success{background:#eaf7ef;border-color:#bfe5cd;color:#14532d}
+.zg-page-notice--success .zg-page-notice__icon{background:#16a34a}
+.zg-page-notice--success strong{color:#14532d}
+.zg-page-notice--warning{background:#fff7e6;border-color:#f3d9a4;color:#7c4a03}
+.zg-page-notice--warning .zg-page-notice__icon{background:#d97706}
+.zg-page-notice--warning strong{color:#7c4a03}
+.zg-page-notice--error{background:#fdecea;border-color:#f5c6c0;color:#7f1d1d}
+.zg-page-notice--error .zg-page-notice__icon{background:#dc2626}
+.zg-page-notice--error strong{color:#7f1d1d}
+
+/* ---------- نوار یادآوری Cron ---------- */
+.zg-cron-nudge{padding:10px 14px}
+.zg-cron-nudge a{margin-left:8px;vertical-align:middle}
+.zg-cron-nudge .button{margin-right:4px}
+
+/* ---------- بخش Cron واقعی سرور ---------- */
+.zg-cron-status{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.zg-cron-chip{display:inline-flex;align-items:center;gap:6px;background:#f3f8f8;border:1px solid #dce9eb;border-radius:999px;padding:5px 12px;font-size:12px;color:#37535d}
+.zg-cron-chip.is-ok{background:#eaf7ef;border-color:#bfe5cd;color:#14532d}
+.zg-cron-chip.is-err{background:#fdecea;border-color:#f5c6c0;color:#7f1d1d}
+.zg-cron-chip.is-muted{background:#f4f6f7;color:#8a949a}
+.zg-cron-code{width:100%;max-width:560px;direction:ltr;text-align:left;font-family:monospace;font-size:12px;background:#0f1c24;color:#9fe8b0;border-radius:8px;padding:10px 12px;border:0;margin:6px 0 10px}
+.zg-cron-done{background:#eaf7ef;border:1px solid #bfe5cd;border-radius:999px;padding:9px 12px;color:#14532d;font-weight:600}
+
+.zg-live-badge{display:inline-flex;align-items:center;gap:6px;background:#eaf7ef;border:1px solid #bfe5cd;color:#14532d;border-radius:999px;padding:5px 12px;font-size:12px;font-weight:700}
+.zg-live-badge:before{content:"";width:8px;height:8px;border-radius:50%;background:#16a34a;animation:zgPulse 1.8s infinite}
+
+.zg-trace-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;background:#f3f8f8;border:1px solid #dce9eb;border-radius:9px;padding:8px 12px;margin-bottom:10px;font-size:12px;color:#37535d}
+.zg-trace-time{display:inline-block;margin-left:8px;font-size:10px;color:#8a949a;direction:ltr;unicode-bidi:embed}
+.zg-trace-body .zg-trace-time{float:left}
+.zg-dash-log{margin-top:18px;border-top:1px solid #edf1f3;padding-top:14px}
+.zg-dash-log h3{font-size:14px;color:#173849;margin:0 0 10px}
+.zg-dash-log table td{font-size:12px}
+
+/* ---------- فلش قیمت و فلش‌های صعود/نزول ---------- */
+.zg-flash-up{animation:zgFlashUp 1.4s ease}
+@keyframes zgFlashUp{0%{background:rgba(22,163,74,.35);transform:scale(1.03);color:#15803d}60%{background:rgba(22,163,74,.18)}100%{background:transparent;transform:scale(1)}}
+.zg-flash-down{animation:zgFlashDown 1.4s ease}
+@keyframes zgFlashDown{0%{background:rgba(220,38,38,.35);transform:scale(1.03);color:#b91c1c}60%{background:rgba(220,38,38,.18)}100%{background:transparent;transform:scale(1)}}
+.zg-arrow{display:inline-block;font-size:11px;margin-right:4px;line-height:1;vertical-align:2px;animation:zgArrowIn .3s ease}
+.zg-arrow.up{color:#16a34a}
+.zg-arrow.down{color:#dc2626}
+@keyframes zgArrowIn{from{opacity:0;transform:translateY(4px) scale(.5)}to{opacity:1;transform:none}}
+.zg-duo b,.zg-live-price,.zg-metric-card b{transition:background .3s ease}
+.zg-live-price b{color:#0e6b72}
+.zg-price-buy{color:#0e6b72;font-weight:700}
+.zg-price-sell{color:#495f69;font-weight:600}
+
+/* ---------- کرون زنده ---------- */
+.zg-cron-live{display:inline-flex;gap:10px;align-items:center;flex-wrap:wrap;margin-right:6px}
+.zg-cron-live-item{display:inline-flex;align-items:center;gap:6px;background:#f6f9fa;border:1px solid #e0e9eb;border-radius:999px;padding:4px 11px;font-size:11px;color:#556a73}
+.zg-cron-live-item b{direction:ltr;font-family:monospace;font-weight:700;color:#0e6b72;min-width:44px;text-align:left}
+.zg-cron-dot{width:7px;height:7px;border-radius:50%;background:#16a34a;flex:0 0 auto}
+.zg-cron-next b{color:#a16207}
+.zg-cron-live.is-near .zg-cron-next{background:#fff3cd;border-color:#f1c40f;animation:zgPulseBox 1s infinite}
+.zg-cron-live.is-near .zg-cron-next b{color:#b91c1c}
+@keyframes zgPulseBox{0%,100%{box-shadow:0 0 0 0 rgba(241,196,15,.5)}50%{box-shadow:0 0 0 4px rgba(241,196,15,0)}}
+.zg-swap-in{box-shadow:0 0 0 3px rgba(23,130,138,.18) inset}
+.zg-item-in{animation:zgItemIn .35s ease backwards}
+@keyframes zgItemIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+
+@media(max-width:960px){
+  .zg-auto-metrics-grid{grid-template-columns:repeat(2,1fr)}
+  .zg-mode-switch--2{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .zg-auto-metrics-grid{grid-template-columns:1fr}
+  .zg-mode-switch--2{grid-template-columns:1fr}
+  .zg-card-duo{gap:10px}
+}
